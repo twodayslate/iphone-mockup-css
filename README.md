@@ -4,6 +4,6 @@ iPhone X frames that supports landscape and portrait mode as well as angled and 
 
 Live Preview: https://twodayslate.github.io/iphone-mockup-css/
 
-![Preview](/preview.png | width=150)
+<img src="/preview.png"  width=150 />
 
 Inspired by https://codepen.io/billyysea/pen/cGnvJ
