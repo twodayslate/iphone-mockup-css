@@ -1,0 +1,71 @@
+.iphone {
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  background-size: cover;
+  width: 11.7em;
+  height: 25.272em;
+  border: 0.6435em solid #0d0d10;
+  border-radius: 1.8018em; }
+  .iphone.horizontal {
+    width: 25.272em;
+    height: 11.7em; }
+  .iphone:before {
+    display: block;
+    width: 6.52041em;
+    height: 0.936em;
+    background: #0d0d10;
+    border-radius: 0 0 0.702em 0.702em;
+    content: '';
+    position: relative;
+    top: 0;
+    left: 2.589795em;
+    z-index: 100; }
+  .iphone.horizontal:before {
+    height: 6.52041em;
+    width: 0.936em;
+    border-radius: 0 0.702em 0.702em 0;
+    left: 0;
+    top: 2.589795em; }
+  .iphone :first-child {
+    width: 11.7em;
+    height: 25.272em;
+    position: relative;
+    top: -0.936em; }
+  .iphone.horizontal :first-child {
+    top: -6.52041em;
+    height: 11.7em;
+    width: 25.272em; }
+  .iphone.left {
+    transform: perspective(50em) rotateY(-45deg); }
+  .iphone.right {
+    transform: perspective(50em) rotateY(45deg); }
+  .iphone.stack-right {
+    transform: perspective(50em) rotateX(45deg) skew(45deg, -45deg);
+    transform-origin: bottom-center;
+    filter: drop-shadow(-5em -0.25em 2em rgba(0, 0, 0, 0.3)); }
+  .iphone.stack-left {
+    transform: perspective(50em) rotateX(45deg) skew(-45deg, 45deg);
+    transform-origin: bottom-center;
+    filter: drop-shadow(5em 0.25em 2em rgba(0, 0, 0, 0.3)); }
+  .iphone.extra-small {
+    font-size: 8px; }
+  .iphone.small {
+    font-size: 10px; }
+  .iphone.medium {
+    font-size: 12px; }
+  .iphone.large {
+    font-size: 14px; }
+  .iphone.extra-large {
+    font-size: 16px; }
+  .iphone.gigantic {
+    font-size: 24px; }
+
+body {
+  background: #f0f0fa;
+  margin: 0; }
+
+.iphone {
+  margin: 30px auto; }
+
+/*# sourceMappingURL=style.css.map */
